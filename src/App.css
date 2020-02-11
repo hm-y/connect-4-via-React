@@ -1,0 +1,70 @@
+.App{
+  text-align: center;
+}
+
+.App-logo{
+  animation: App-logo-spin 5s linear;
+  perspective: 1000px;
+  height: 80px;
+}
+
+.App-header{
+  background-color: #25d8ed;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title{
+  font-size: 1.5em;
+}
+
+.App-subtitle{
+  font-size: 1.2em;
+  color: #000;
+}
+
+.colorChoice{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.ccRed{
+  margin-right: 10px;
+  background-color: red;
+}
+
+.ccYellow{
+  background-color: yellow;
+}
+
+#Main{
+  width: 800px;
+  margin: 0 auto;
+}
+
+#Board{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.Slot{
+  background-color: lavender;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+
+#resetButton{
+  background-color: AntiqueWhite;
+  height: 70px;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+
+@keyframes App-logo-spin{
+  0% { transform: rotateY(0deg); }
+  100%  { transform: rotateY(360deg); }
+}
